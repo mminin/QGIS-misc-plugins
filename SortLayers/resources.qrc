@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/plugins/SortLayers" >
-        <file>icon.png</file>
+        <file>iconAZ.png</file>
+        <file>iconZA.png</file>
     </qresource>
 </RCC>

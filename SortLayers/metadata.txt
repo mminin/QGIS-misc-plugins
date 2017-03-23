@@ -8,16 +8,16 @@
 
 [general]
 name=Sort Layers
-qgisMinimumVersion=2.0
+qgisMinimumVersion=2.4
 description=Sorts layers in Layers Panel alphabetically
-version=0.1
+version=0.2
 author=Mikhail Minin
 email=m.minin@jacobs-university.de
 
-about=Arrange alphabetically all layers in the Layers Panel (from A to Z).
+about=Arrange alphabetically all layers in the Layers Panel (from A to Z, or from Z to A).
 
-tracker=https://github.com/mminin/QGISSortLayers/issues
-repository=https://github.com/mminin/QGISSortLayers
+tracker=https://github.com/mminin/QGIS-misc-plugins/issues
+repository=https://github.com/mminin/QGIS-misc-plugins
 # End of mandatory metadata
 
 # Recommended items:
@@ -28,9 +28,9 @@ repository=https://github.com/mminin/QGISSortLayers
 # Tags are comma separated with spaces allowed
 tags=sort, layers
 
-homepage=https://github.com/mminin/QGISSortLayers
-category=Plugins
-icon=icon.png
+homepage=https://github.com/mminin/QGIS-misc-plugins
+category=Layers
+icon=iconAZ.png
 # experimental flag
 experimental=True
 
