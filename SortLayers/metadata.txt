@@ -10,7 +10,7 @@
 name=Sort Layers
 qgisMinimumVersion=2.4
 description=Sorts layers in Layers Panel alphabetically
-version=0.2
+version=0.3
 author=Mikhail Minin
 email=m.minin@jacobs-university.de
 
