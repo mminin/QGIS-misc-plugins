@@ -4,7 +4,7 @@
 import numpy as np
 import math
 import matplotlib.pyplot as plt
-sample = np.asarray([list(x) for x in zip(range(32),[x[0] for x in numpy.random.random((32,1)).tolist()])])
+sample = np.asarray([list(x) for x in zip(range(32),[x[0] for x in np.random.random((32,1)).tolist()])])
 start  = sample[:1]
 end    = sample[-1:]
 getDist = lambda p1,p2,p3: ( (p1[1]-p2[1])*p3[0] - (p1[0]-p2[0])*p3[1] + p2[0]*p1[1] - p2[1]*p1[0]) / \
@@ -32,7 +32,7 @@ def recur(sample,q):
         plt.plot([p1[0],p2[0]],[p1[1],p2[1]])
         plt.plot([p1[0],p3[0]],[p1[1],p3[1]])
         plt.plot([p2[0],p3[0]],[p2[1],p3[1]])
-        if fp <> 0:
+        if fp != 0:
             q.append(sample[fp])
             subsampA=sample[:fp+1]
             subsampB=sample[fp:]
